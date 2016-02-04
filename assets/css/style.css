@@ -1,0 +1,810 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+}
+
+hr{
+	margin: 0;
+}
+
+
+
+img{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	color:#09F;
+}
+a:hover{
+	text-decoration: none;
+	outline: none;
+	color:#06F;
+}
+.white,#header a,#footer a{
+	color: #ffffff;	
+}
+
+.vcenter {
+	padding: 1px 0 ;
+}
+
+.vcenter img{
+	display: inline-table;
+	vertical-align:middle;
+}
+
+#header a:hover,#footer a:hover{
+	text-decoration:underline;
+}
+
+#alerts
+{
+	color: Red;
+}
+
+#logo{
+	position: absolute;
+	top: 15px;
+	left: 31px;
+}
+
+#searchform{
+	background: url(../images/searchbox.png) no-repeat;
+	position: absolute;
+	top: 13px;
+	left: 473px;
+	width: 275px;
+	height: 36px;
+}
+
+#s{
+	background: none;
+	border: none;
+	outline: none;
+	margin: 2px 5px 3px 15px;
+	width: 215px;
+	height: 30px;
+	color: #888888;	
+}
+
+#searchsubmit{
+	background: none ;
+	padding: 0;	
+    border: none;
+	outline: none;
+	width: 30px;
+	height: 28px; 
+	cursor: pointer;      
+    text-indent: -99999px;   	
+}
+
+#connect-btn{
+	display: inline-block;
+	position: absolute;
+	left: 630px;
+	top: 8px;
+}
+
+#copyright{
+	position: absolute;
+	right: 35px;
+	top: 15px;
+}
+
+.nav{
+	float: right;
+	display: inline-block;	
+}
+
+.nav a{
+	color: #30a3ea;
+}
+
+.nav a:hover{
+	text-decoration:underline;
+}
+
+.hor-menu{
+	position: absolute;
+}
+
+.hor-menu,.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+.hor-menu > li{
+	padding: 0 12px;	
+	float: left;	
+}
+
+.nav > li{
+	padding: 0 3px;	
+	float: left;
+}
+
+.hor-menu a,.nav a{
+	display: block;
+}
+
+#top-left{
+	left: 220px;
+	top: 21px;
+}
+
+#top-right{
+	left: 775px;
+	top: 21px;
+}
+
+#top-navi{
+	display: inline-block;
+	position: absolute;
+	left: 845px;
+	top: 15px;
+	word-spacing:+1.2em;
+}
+
+#bottom-menu{
+	top: 15px;
+	left: 18px;	
+}
+
+#top{	
+	background: url(../images/header_bg.gif) repeat-x;
+	min-width: 1020px;
+}
+
+#center{	
+	background-color: #FFFFFF;		
+	min-width: 1020px;
+}
+
+#titlehead{
+	background:url(../images/title_bg.png) repeat-x #003f66;
+	min-height:150px;
+}
+
+#titletext{
+	color:#FFFFFF;
+	font-size:28px;
+	width:960px;
+	padding:40px 30px 0px 30px;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+#bottom{	
+	background: url(../images/footer_bg.gif) repeat-x;	
+	min-width: 1020px;
+}
+
+#header{
+	position: relative;	
+	width: 1020px;
+	height: 60px;	
+	margin: 0 auto;	
+	color: #ffffff;		
+}
+
+#footer{
+	position: relative;	
+	width: 1020px;
+	height: 100px;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+.misc{
+	padding-left:30px;
+	padding-right:30px;
+	width:960px;
+	min-height:500px;
+	margin: 0 auto;
+}
+
+/* Login panel */
+#login{
+    position: absolute;
+    top: 58px;
+    right: 50px;
+    padding: 10px 15px 5px 15px;
+    background: #2a2a2a;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: none;
+}
+#login a {
+	color:#FF0;
+}
+#signup a {
+	color:#FF0;
+}
+#signup{
+    position: absolute;
+    top: 58px;
+    right: 120px;
+    padding: 10px 15px 5px 15px;
+    background: #2a2a2a;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: none;
+}
+/* ------------------- Typography ---------------------- */
+h1{
+	font-size:36px;
+	color:#069;
+}
+
+h2{
+	font-size:24px;
+	color:#333;
+	position:relative;
+	bottom:-10px;
+}
+
+h3{
+	font-size:18px;
+	color:#930;
+}
+
+h4{
+	font-size:16px;
+	color:#666;
+}
+
+ol{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* ------------------- Home ---------------------- */
+#motto{
+	margin: 0 auto;
+	width: 1020px;	
+	
+}
+.mottobg{
+/*	background:url(../images/title_bg.png) repeat; */
+	background-color: #003f66;
+}
+#hiw > div{
+	height: 360px;
+	width: 580px;
+	margin: 0 auto;
+	padding: 30px 220px;
+}
+
+#hiw .video{
+	width: 580px;
+	height: 360px;
+	background-color: #dddddd;
+}
+
+#fp > div{
+	height: 460px;
+	width: 970px;
+	margin: 0 auto;
+	padding: 30px 25px;
+}
+
+#fp .picture{
+	height: 300px;
+	text-align: center;			
+}
+
+#fp .picture-wrapper{
+	display: inline-block;
+	height: 300px;			
+}
+
+#fp .box{
+	display: inline-block;
+	margin: 0 4px;
+}
+
+#fp .button{
+	height: 160px;
+	text-align: center;			
+}
+
+
+/* ----------------------------------------------- */
+
+.band{
+	background: #0d0e16;	
+}
+
+.band div{
+	margin: 0 auto;
+	width: 950px;
+	padding: 5px 35px;
+	color: #ffffff;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+/* ------------------------------------------------- */
+
+.text-form{
+	background: url(../images/textbox_short.png) no-repeat;
+	padding: 3px 5px;
+	width: 205px;
+	height: 23px;
+	border: none;
+	outline: none;
+}
+
+.ta-wrapper{
+	background: url(../images/textbox_message.png) no-repeat;
+	padding: 10px;	
+}
+
+.ta-wrapper > textarea{
+	width: 180px;
+	height: 83px;
+	border: none;
+}
+
+.ta-l-wrapper{
+	background: url(../images/l-ta.png) no-repeat;
+	padding: 15px;	
+}
+
+.ta-l-wrapper > textarea{
+	width: 490px;
+	height: 240px;
+	border: none;
+}
+
+.ta-s-wrapper{
+	background: url(../images/s-ta.png) no-repeat;
+	padding: 15px;	
+}
+
+.ta-s-wrapper > textarea{
+	width: 490px;
+	height: 100px;
+	border: none;
+}
+
+.select{
+	margin-right: -20px;
+	padding: 5px 0 5px 10px;
+	width: 295px;
+	height: 30px;
+	background: transparent;
+	border: none;	
+	outline: none;
+	cursor: pointer;	
+}
+
+.select-wrapper{
+	width: 275px;
+	height: 30px;
+	overflow: hidden;
+	background: url(../images/select.png) no-repeat;
+}
+	
+
+.pic{
+	width: 70px;
+	height: 70px;
+}
+
+.xxx{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.dialog{
+	background-color: #0d0e16;
+	color: #ffffff;
+	font-size: 9pt;
+	padding: 10px;
+	border: solid 2px #00cc99;
+	position: relative;
+	width: 360px;
+}
+
+.dialog a{
+	color: #036eb1;
+}
+
+.dialog a:hover{
+	text-decoration:underline;
+}
+
+.dialog td{
+	padding: 4px 0;
+}
+
+.dialog .title{
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+.dialog .close-dialog{
+	position: absolute;
+	top: -15px;
+	left: 365px;
+	background: url(../images/close.png) no-repeat;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+}
+
+#signup{	
+	height: 250px;	
+}
+
+#login{		
+	height: 205px;
+}
+
+#login .rem{
+	text-align: right;
+	padding: 5px 50px;
+}
+
+.ta{
+	background:#FFF;
+}
+
+input[type=checkbox]{
+}
+
+/* ----------------------- submit project----------------------------------- */
+	
+#submit-panel > div{	
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#browse > div {
+	width: 950px;
+	padding: 30px 35px 40px;
+	margin: 0 auto;
+	height: 710px;
+}
+
+#browse #left-menu{
+	float: left;
+	width: 200px;
+	padding-right: 30px;
+}
+
+#left-menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#left-menu .type{
+	font-size: 12pt;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+#left-menu li{
+	padding: 3px 0 3px 10px;
+}
+
+#left-menu li.active{
+	background: url(../images/arrow.gif) no-repeat 0 center;
+	font-weight: bold;
+}
+
+#left-menu a{
+	color: #000000;
+}
+
+#left-menu a:hover{
+	text-decoration:underline;
+}
+
+#browse #projects{
+	float: left;
+	width: 720px;
+		
+}
+
+#browse #project-list{
+	height: 640px;
+	position: relative;
+}
+	
+	
+
+.q{
+	font-size: 14pt;
+	font-weight: bold;
+}
+	
+/* Pitchbox */
+
+.pitch_container {
+	position: relative;
+	height: 300px;
+	width: 230px;
+	margin: 5px;
+	overflow: hidden;
+	float:left;
+}
+
+.pitch_container a {
+	color:#FFFFFF;
+}
+
+.pitch_background {
+	background-color: #006eb2;
+	opacity: 1;
+	position: absolute;
+	width: 210px;
+	top: 240px;
+	height: 100%;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	opacity: 0.75;
+}
+
+.pitch_description {
+	background-color: transparent;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	color: #FFF;
+	position: absolute;
+	width: 210px;
+	top: 240px;
+	height: 100%;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	opacity: 1;
+}
+.pitch_description_creator {
+	font-size: 8pt;
+	padding-top: 2px;
+}
+.pitch_description_content {
+	font-size: 10pt;
+	padding-top: 10px;
+	height: 175px;
+	width: 210px;
+}
+.pitch_amount_funded {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.pitch_progressbar_funded {
+	border: 1px solid #FFF;
+	height: 10px;
+	width: 100%;
+}
+.pitch_progress_funded {
+	padding-top: 2px;
+}
+
+
+/*Project Update*/
+	
+#title_background {
+	background-image: url(../images/title_bg.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 150px;
+}
+#title_gradient {
+	background-image: url(../images/title_bg_center.png);
+	background-position: center top;
+	height: 100%;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#title_name {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 27pt;
+	color: #FFF;
+	padding-top: 40px;
+	padding-bottom: 18px;
+}
+#title_project_creator {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	color: #ffb504;
+}
+.normal_text {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	color: #0d0e16;
+}
+
+#title_background .normal_text {
+	color: #FFF;
+}
+
+#content_background {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	color: #0d0e16;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#twodiv_left_container {
+	float: left;
+	width: 495px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#twodiv_right_container {
+	background-color: #e8e8e8;
+	background-image: url(../images/project_border.png);
+	background-repeat: repeat-y;
+	background-position: left;
+	float: right;
+	width: 375px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	position: relative;
+}
+#badge_people {
+	color: #FFF;
+	background-image: url(../images/people_badge.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	height: 135px;
+	width: 110px;
+	margin-right: 10px;
+}
+
+#badge_raised {
+	color: #FFF;
+	background-image: url(../images/raised_badge.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	height: 135px;
+	width: 110px;
+	margin-right: 10px;
+}
+#badge_time {
+	color: #FFF;
+	background-image: url(../images/time_badge.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	height: 135px;
+	width: 110px;
+	margin-right: 10px;
+}.badge_textoffset {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	top: 77px;
+	text-align: center;
+	font-size:10pt
+}
+/*header*/
+.banner{
+        background-image: url(../images/title_bg.png);
+        height : 150px;
+        border : none;
+}
+.banner_middle {
+	background-image: url(../images/help_bg_middle.png);
+	background-position: center center;
+	height: 91px;
+	width: 395px;
+	position: relative;
+	left: -10px;
+}
+.banner_left {
+	background-image: url(../images/help_bg_left.png);
+	background-position: center center;
+	position: relative;
+	height: 91px;
+	width: 8px;
+	left: -8px;
+}
+.banner_right {
+	background-image: url(../images/help_bg_right.png);
+	background-position: center center;
+	position: relative;
+	height: 91px;
+	width: 7px;
+	top: -91px;
+	left: 395px;
+}
+
+.info {
+        background: #E4EBF1 url('../images/info.png') 8px 5px no-repeat;
+        border-top: 1px solid #D4D9DE;
+        border-bottom: 1px solid #D4D9DE;
+        color: #323232;
+        margin: 10px 0px 10px 0px;
+        padding: 8px 10px 8px 40px;
+}
+.alert {
+        background: #FFE6DF url('../images/error.png') 8px 5px no-repeat;
+        border-top: 1px solid #FFD9CF;
+        border-bottom: 1px solid #FFD9CF;
+        color: #323232;
+        margin: 10px 0px 10px 0px;
+        padding: 8px 10px 8px 40px;
+}
+
+/* custom button style sheet*/
+.button_submit:active, .submit input:active, .button-secondary:active {
+    background: #EEE url(../images/white-grad-active.png) repeat-x scroll left top;
+}
+
+.button_submit:hover, .button-secondary:hover, .button_submit input:hover {
+    color: black;
+    border-color: #666;
+}
+
+.button_submit, .submit input, .button-secondary {
+    background: #F2F2F2 url(../images/white-grad.png) repeat-x scroll left top;
+}
+
+.button_submit input, .button_submit, .button-secondary {
+    line-height: 16px;
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 6px 15px;
+    cursor: pointer;
+    border: 1px solid #BBB;
+    color: #464646;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DFDFDF;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    line-height: 16px;
+    margin: 1px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+textarea{
+    padding: 10px;
+}
+textarea:hover, input[type="text"]:hover, input[type="password"]:hover, input[type="file"]:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover
+{
+    border-style: solid;
+    border-color: #666;
+}

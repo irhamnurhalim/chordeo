@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Edit Project</title>
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="960gs/960_24_col.css" type="text/css">
+<!--<link rel="stylesheet" href="960gs/960.css" type="text/css">-->
+<link rel="stylesheet" href="960gs/text.css" type="text/css">
+<link rel="stylesheet" href="960gs/reset.css" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/charCount.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){	
+		//default usage
+		$("#message1").charCount();
+		//custom usage
+		$("#message2").charCount({
+			allowed: 52,		
+			warning: 10,
+			counterText: ''	
+		});
+	});
+</script>
+<style>
+form{width:500px;}
+label{
+	display:block;
+	font-size:13px;
+	visibility:hidden;
+	}
+textarea{
+	width:490px;
+	height:60px;
+	border:2px solid #ccc;
+	padding:3px;
+	color:#000;
+	text-indent: 10px;
+	}
+form div{position:relative;margin:0 0;}
+form .counter{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:13px;
+	
+	color:#808080;
+	}
+form .warning{color:#e00;}	
+form .exceeded{color:#e00;}	
+
+</style>
+</style>
+</head>
+<body>
+<div class="banner">
+	<div class="container_24">
+	<div class="grid_24 alpha omega header">
+	<div class="header-title"><b>EDIT PROJECT</b>
+	</div>
+	</div>
+	<form id="form" method="post" action="">  
+	<div class="grid_24 edit-content">
+		<div class="grid_9 letf-edit-content">
+			<img src="images/alert-edit.png" class="grid_9 alpha alert-content">
+			<div class="inp-edit-project">
+				<div class="label-edit"><b>Project Name</b></div>
+				<!--<div class="clear"></div>
+				<div class="grid_1 push_8 omega text-number"></div>-->
+				<div class="clear"></div>
+					<div>
+        	<label for="message">a</label>
+            <input type="text" id="message2" name="message2" class="textbox-edit grid_9 alpha">
+        </div>	
+				<!--<input type="text" class="textbox-edit grid_9 alpha">-->
+			</div>
+			<div class="clear"></div>
+			<div class="inp-edit-project">
+				<div class="label-edit"><b>Project Summary</b></div>
+				<!--<div class="clear"></div>
+				<div class="grid_1 push_8 omega text-number"></div>-->
+				
+				<div class="clear"></div>
+				<!--<textarea class="textarea-edit grid_9 alpha"></textarea>-->
+				  <div>
+        	<label for="message">Type your message</label>
+        	<textarea id="message1" name="message1" class="textarea-edit grid_9 alpha"></textarea>
+        </div>
+				
+
+			</div>
+			<div class="inp-edit-project">
+				<div class="label-edit"><b>Project Location</b></div>
+				<div class="clear"></div>
+				
+				<input type="text" class="textbox-short-edit grid_7 alpha">
+			</div>
+			<div class="clear"></div>
+			<div class="inp-edit-project">
+				<div class="label-edit margin-bot"><b>Category</b></div>
+				<div class="clear"></div>
+				<div class="grid_7 alpha select-edit"><span>Choose category</span>
+				<select class="grid_7 alpha select-class"><option>Art</option><option>Engineering</option><option>Social</option></select>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="inp-edit-project">
+				<div class="label-edit"><b>Amount of Funding Needed</b></div>
+				<div class="clear"></div>
+				<input type="text" class="textbox-short-edit grid_7 alpha" value="Rp ">
+			</div>
+			<div class="clear"></div>
+			<div class="inp-edit-project">
+				<div class="label-edit margin-bot"><b>Funding Duration</b></div>
+				<div class="clear"></div>
+				<div class="grid_7 alpha select-edit"><span>Choose duration</span>
+				<select class="grid_7 alpha select-class" ><option>30 days</option><option>60 days</option><option>90 days</option></select>
+				</div>
+
+			</div>
+			
+			
+		</div>
+		<div class="grid_14 push_1 right-edit-content">
+			<div class="inp-edit-project">
+				<div class=""><b>Enter Youtube Video URL</b></div>
+				<div class="clear"></div>
+				<input type="text" class="textbox-edit margin-top grid_9 alpha">
+				
+			</div>
+			<div class="grid_13 alert-content">
+			<div class="inp-edit-project">
+				<div class="padding-bot "><b>Upload Display Picture</b></div>
+				<div class="clear"></div>
+				<input type="text" class="textbox-edit grid_9 alpha">
+				<div class="grid_4 alpha omega btn-upload-img">
+				<input type="file" class="upload-img grid_4 alpha">
+			</div>
+			</div>
+			<div class="grid_13 alert-content">
+			<div class="inp-edit-project">
+				<div class="label-edit"><b>About This Project</b></div>
+				<div class="clear"></div>
+				<div class="text-number alpha margin-bot">Please be as specific as you can</div>
+				<div class="clear"></div>
+				
+				
+				<div class="textarea-edit2 grid_13 alpha">
+				<div class="toolbar alpha"><center>
+				<!--<img src="images/bold.png" align="middle">
+				<img src="images/italic.png" align="middle">
+				<img src="images/underline.png" align="middle">-->
+				</center></div>
+				<textarea>
+				</textarea>
+				
+				</div>
+			</div>
+			</div>
+			<div class="grid_13 alert-content">
+				<div class="inp-edit-project">
+					<div class="label-edit1"><b>Reward</b></div>
+				</div>
+				<div class="grid_13 alpha each-reward-edit">
+					<div class="grid_3 reward-price"><b>Rp 50.000+</b></div>
+					<div class="grid_8 alpha omega reward-desc">A personal thank you letter from Seth Godin</div>
+					<img src="images/donator_icon.png" class="grid_1 ico-donatur">
+					<div class="grid_1 donatur-number">10</div>
+				</div>
+				<div class="clear"></div>
+			<div class="grid_3 push_11 option-edit">
+				<ul>
+					<li class="first"><a href="#">Edit</a></li>
+					<li><a href="#">Delete</a></li>
+				</ul>
+			</div>
+				<div class="grid_13 alpha each-reward-edit">
+					<div class="grid_3 reward-price"><b>Rp 50.000+</b></div>
+					<div class="grid_8 alpha omega reward-desc">A personal thank you letter from Seth Godin</div>
+					<img src="images/donator_icon.png" class="grid_1 ico-donatur">
+					<div class="grid_1 donatur-number">10</div>
+				</div>
+				<div class="clear"></div>
+			<div class="grid_3 push_11 option-edit">
+				<ul>
+					<li class="first"><a href="#">Edit</a></li>
+					<li><a href="#">Delete</a></li>
+				</ul>
+			</div>
+			</div>
+			<div class="grid_13 alert-content">
+				<div class="new-reward grid_13">
+					<div class="grid_4 alpha omega">
+						<div class="donation-amount-lbl">DONATION AMOUNT</div>
+						<div class="clear"></div>
+						<input type="text" class="textbox-edit-short grid_4 alpha" value="Rp ">
+					</div>
+						<div class="grid_9  omega">
+						<div class="donation-amount-lbl">REWARD</div>
+						<div class="clear"></div>
+						<input type="text" class="textbox-edit2 grid_9 ">
+						
+					</div>
+					<div class="clear"></div>
+					<div class=" push_10 option-edit"><a href="#">Add New Reward</a></div>
+				</div>
+                <input type="image" class="grid_4 btn-publish"src="images/publish.png"  onmouseover="javascript:this.src='images/publish_hover.png';" onmouseout="javascript:this.src='images/publish.png';">
+               <input type="image" class="grid_4 push_1 btn-publish"src="images/preview.png"  onmouseover="javascript:this.src='images/preview_hover.png';" onmouseout="javascript:this.src='images/preview.png';">
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</form>
+	</body>
+</html>
